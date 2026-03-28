@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 const { Pool } = pg;
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "autoassets2024";
 
 if (!process.env.DATABASE_URL) {
